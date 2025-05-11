@@ -1,57 +1,50 @@
 
 
 body {
-    background-image: url('fondopizza.png'); /* Mantiene la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que se repita */
-    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    background-image: url('fondopizza.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     display: flex;
-    flex-direction: column; /* Acomoda los elementos en columna */
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
-    height: 100vh; /* Ocupa toda la pantalla */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cambiado de height a min-height */
+    padding: 10px; /* Evita que el contenido toque los bordes */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
-
-
-
-        header {
-            text-align: center;
-        }
-        h1 {
-            font-family: 'Lobster', cursive;
-            font-size: 78px;
-            color: #F5F5DC; /* Mostaza Dorada */
-            text-align: center;
-        }
-
-        ul {
-            color: #F5F5DC;
-    list-style: none; /* Elimina las viñetas */
-    padding: 0; /* Evita espacios extra */
-    margin: 0; /* Ajusta la posición */
-            font-size: 38px;
-
-
-        }
-        ul a {
-            color: #F5F5DC;
-            text-decoration: none; /* Opcional: quita el subrayado */
-        }
-
-.container {
+/* Ajuste para el título en móviles */
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 6vw; /* Ajuste dinámico según el tamaño de pantalla */
+    color: #F5F5DC;
     text-align: center;
 }
 
-
+/* Optimización del tamaño del logo */
 #logo {
     display: block;
-    margin: 0 auto; /* Centra la imagen */
-    height: 450px;
-    width: 900px;
+    margin: 0 auto;
+    max-width: 90%; /* Para que no se corte en pantallas pequeñas */
+    height: auto; /* Ajusta la altura automáticamente */
 }
+
+/* Ajuste de navegación */
+ul {
+    color: #F5F5DC;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 4vw; /* Ajuste dinámico */
+}
+
+/* Para mejorar visibilidad del footer */
 footer {
-color: #F5F5DC;
+    color: #F5F5DC;
+    text-align: center;
+    padding: 10px;
 }
+
