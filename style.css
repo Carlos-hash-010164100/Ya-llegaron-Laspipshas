@@ -19,7 +19,7 @@ body {
 /* Ajuste para el título en móviles */
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 9vw; /* Ajuste dinámico según el tamaño de pantalla */
+    font-size: 18vw; /* Ajuste dinámico según el tamaño de pantalla */
     color: #F5F5DC;
     text-align: center;
 }
