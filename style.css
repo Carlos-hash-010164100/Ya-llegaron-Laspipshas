@@ -14,7 +14,8 @@
         h1 {
             font-family: 'Lobster', cursive;
             font-size: 48px;
-            color: #D32F2F; /* Rojo pizza */
+            color: #FFC107; /* Mostaza Dorada */
+            text-align: center;
         }
 
         ul {
