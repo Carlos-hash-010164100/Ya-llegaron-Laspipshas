@@ -1,6 +1,6 @@
-    #Pagina {
-        background-color: grey;
-    }
+        #Pagina {
+            background-color: grey;
+        }
 
         body {
             background-color: grey;
@@ -9,9 +9,9 @@
         header {
             text-align: center;
         }
-h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 48px;
-    color: #D32F2F; /* Rojo pizza */
-}
+        h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 48px;
+            color: #D32F2F; /* Rojo pizza */
+        }
 
