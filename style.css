@@ -28,10 +28,10 @@ body {
         }
 
         ul {
-            color: black;
+            color: #F5F5DC;
         }
         ul a {
-            color: black;
+            color: #F5F5DC;
             text-decoration: none; /* Opcional: quita el subrayado */
         }
 
