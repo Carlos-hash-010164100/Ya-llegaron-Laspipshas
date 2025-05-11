@@ -27,7 +27,7 @@ h1 {
 /* 🔹 Ajuste para pantallas pequeñas */
 @media (max-width: 600px) {
     h1 {
-        font-size: 50vw; /* Aumenta el tamaño solo en móviles */
+        font-size: 30vw; /* Aumenta el tamaño solo en móviles */
     }
 }
 
@@ -48,6 +48,7 @@ ul {
     padding: 0;
     margin: 0;
     font-size: 4vw; /* Ajuste dinámico */
+    text-align: center;
 }
 ul a {
 color: #F5F5DC;
