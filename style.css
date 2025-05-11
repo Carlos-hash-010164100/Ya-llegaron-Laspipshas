@@ -32,6 +32,7 @@ body {
     list-style: none; /* Elimina las viñetas */
     padding: 0; /* Evita espacios extra */
     margin: 0; /* Ajusta la posición */
+            font-size: 38px;
 
 
         }
@@ -48,8 +49,8 @@ body {
 #logo {
     display: block;
     margin: 0 auto; /* Centra la imagen */
-    height: 550px;
-    width: 700px;
+    height: 750px;
+    width: 900px;
 }
 footer {
 color: #F5F5DC;
