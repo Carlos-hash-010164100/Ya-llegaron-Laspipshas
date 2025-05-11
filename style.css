@@ -21,10 +21,10 @@ body {
         }
 
         ul {
-            color: white;
+            color: black;
         }
         ul a {
-            color: white;
+            color: black;
             text-decoration: none; /* Opcional: quita el subrayado */
         }
 
