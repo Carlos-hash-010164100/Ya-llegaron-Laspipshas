@@ -27,7 +27,7 @@ h1 {
 /* 🔹 Ajuste para pantallas pequeñas */
 @media (max-width: 600px) {
     h1 {
-        font-size: 14vw; /* Aumenta el tamaño solo en móviles */
+        font-size: 10vw; /* Aumenta el tamaño solo en móviles */
     }
 }
 
