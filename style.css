@@ -25,4 +25,10 @@
             color: white;
             text-decoration: none; /* Opcional: quita el subrayado */
         }
+#logo {
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    height: 450px;
+    width: 600px;
+}
 
