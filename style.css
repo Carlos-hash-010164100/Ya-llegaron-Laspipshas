@@ -26,7 +26,7 @@ h1 {
 }
 
 /* 🔹 Ajuste para pantallas pequeñas */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     h1 {
         font-size: 8vw; /* Sigue siendo grande pero no tan exagerado */
     }
