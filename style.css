@@ -17,9 +17,10 @@ body {
 }
 
 /* Ajuste para el título en móviles */
+/* Ajuste general para el título */
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 6vw; /* Tamaño dinámico según pantalla */
+    font-size: 5vw; /* Reducido un poco */
     color: #F5F5DC;
     text-align: center;
 }
@@ -27,9 +28,10 @@ h1 {
 /* 🔹 Ajuste para pantallas pequeñas */
 @media (max-width: 600px) {
     h1 {
-        font-size: 10vw; /* Aumenta el tamaño solo en móviles */
+        font-size: 8vw; /* Sigue siendo grande pero no tan exagerado */
     }
 }
+
 
 
 /* Optimización del tamaño del logo */
