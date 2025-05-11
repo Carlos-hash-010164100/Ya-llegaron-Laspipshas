@@ -40,6 +40,9 @@ ul {
     margin: 0;
     font-size: 4vw; /* Ajuste dinámico */
 }
+ul a {
+color: #F5F5DC;
+}
 
 /* Para mejorar visibilidad del footer */
 footer {
