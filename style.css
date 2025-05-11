@@ -29,6 +29,11 @@ body {
 
         ul {
             color: #F5F5DC;
+    list-style: none; /* Elimina las viñetas */
+    padding: 0; /* Evita espacios extra */
+    margin: 0; /* Ajusta la posición */
+
+
         }
         ul a {
             color: #F5F5DC;
