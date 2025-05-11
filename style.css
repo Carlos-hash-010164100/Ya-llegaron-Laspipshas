@@ -1,9 +1,12 @@
 
 
         body {
-            background-color: #8D6E63;
-            text-align: center;
+            background-image: url('fondopizza.jpg');
+            background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que se repita */
         }
+
 
         header {
             text-align: center;
