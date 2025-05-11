@@ -22,7 +22,7 @@ body {
         }
         h1 {
             font-family: 'Lobster', cursive;
-            font-size: 78px;
+            font-size: 88px;
             color: #FFC107; /* Mostaza Dorada */
             text-align: center;
         }
@@ -48,7 +48,7 @@ body {
 #logo {
     display: block;
     margin: 0 auto; /* Centra la imagen */
-    height: 450px;
-    width: 600px;
+    height: 550px;
+    width: 700px;
 }
 
