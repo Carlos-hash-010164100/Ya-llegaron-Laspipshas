@@ -19,10 +19,18 @@ body {
 /* Ajuste para el título en móviles */
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 18vw; /* Ajuste dinámico según el tamaño de pantalla */
+    font-size: 6vw; /* Tamaño dinámico según pantalla */
     color: #F5F5DC;
     text-align: center;
 }
+
+/* 🔹 Ajuste para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 8vw; /* Aumenta el tamaño solo en móviles */
+    }
+}
+
 
 /* Optimización del tamaño del logo */
 #logo {
