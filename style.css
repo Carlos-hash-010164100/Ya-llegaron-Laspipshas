@@ -15,5 +15,10 @@
         }
 
         ul {
-                color: white;
+            color: white;
         }
+        ul a {
+            color: white;
+            text-decoration: none; /* Opcional: quita el subrayado */
+        }
+
