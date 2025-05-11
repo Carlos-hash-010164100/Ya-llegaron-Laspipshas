@@ -1,11 +1,13 @@
 
 
-        body {
-            background-image: url('fondopizza.png');
-            background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
-            background-position: center; /* Centra la imagen */
-            background-repeat: no-repeat; /* Evita que se repita */
-        }
+body {
+    display: flex;
+    flex-direction: column; /* Acomoda los elementos en una columna */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Pantalla completa */
+}
+
 
 
         header {
@@ -25,6 +27,12 @@
             color: white;
             text-decoration: none; /* Opcional: quita el subrayado */
         }
+
+.container {
+    text-align: center;
+}
+
+
 #logo {
     display: block;
     margin: 0 auto; /* Centra la imagen */
