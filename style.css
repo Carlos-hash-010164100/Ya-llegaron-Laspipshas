@@ -28,9 +28,10 @@ h1 {
 #logo {
     display: block;
     margin: 0 auto;
-    max-width: 90%; /* Para que no se corte en pantallas pequeñas */
-    height: auto; /* Ajusta la altura automáticamente */
+    max-width: 80%; /* Reduce el ancho dinámicamente */
+    height: auto; /* Mantiene proporción sin distorsión */
 }
+
 
 /* Ajuste de navegación */
 ul {
