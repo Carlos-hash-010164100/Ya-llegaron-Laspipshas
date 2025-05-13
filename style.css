@@ -45,6 +45,7 @@ h1 {
     margin: 0 auto;
     max-width: 80%; /* Reduce el ancho dinámicamente */
     height: auto; /* Mantiene proporción sin distorsión */
+    padding: 5px; /* Espacio interno */
 }
 
 
