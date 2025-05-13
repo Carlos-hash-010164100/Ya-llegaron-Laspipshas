@@ -25,8 +25,8 @@ h1 {
     text-align: center;
         width: 100%; /* Define el ancho */
     padding: 5px; /* Espacio interno */
-    margin: 50px auto; /* Centra horizontalmente */
-    border: 10px solid #6a6a75; /* Borde visible */
+    margin: 0px auto; /* Centra horizontalmente */
+    border: 0px solid #6a6a75; /* Borde visible */
     box-sizing: border-box;
 }
 
