@@ -23,6 +23,11 @@ h1 {
     font-size: 5vw; /* Reducido un poco */
     color: #F5F5DC;
     text-align: center;
+        width: 100%; /* Define el ancho */
+    padding: 5px; /* Espacio interno */
+    margin: 50px auto; /* Centra horizontalmente */
+    border: 10px solid #6a6a75; /* Borde visible */
+    box-sizing: border-box;
 }
 
 /* 🔹 Ajuste para pantallas pequeñas */
