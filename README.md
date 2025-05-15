@@ -27,10 +27,4 @@ Algunas ideas para mejorar el sitio incluyen:
 - Integración con redes sociales.
 - Sección de promociones y descuentos.
 
-## 📝 Licencia
-
-Este proyecto está bajo la licencia **MIT**, por lo que puedes usarlo, modificarlo y compartirlo libremente. 🚀
-
----
-
 Si necesitas ayuda con la configuración de GitHub Pages, ajustes en el dominio personalizado o cualquier otro aspecto técnico, dime y te guío paso a paso. ¡Vamos a hacer que tu sitio luzca increíble! 🍕🔥
