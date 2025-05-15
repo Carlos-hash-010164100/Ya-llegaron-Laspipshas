@@ -83,4 +83,10 @@ h2 span {
     font-size: 0.75em;
     text-align: center; /* Asegura que quede alineado */
 }
+nav {
+    margin-left: 0; /* Fija el margen izquierdo a 0 */
+    text-align: left; /* Asegura que el contenido dentro de nav también quede alineado */
+    display: block; /* Garantiza que se comporte como un bloque */
+    width: 100%; /* Se expande horizontalmente */
+}
 
