@@ -1,5 +1,3 @@
-
-
 body {
     background-image: url('fondopizza.png');
     background-size: cover;
@@ -11,61 +9,78 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Cambiado de height a min-height */
-    padding: 10px; /* Evita que el contenido toque los bordes */
-    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    min-height: 100vh; /* Asegura altura mínima completa */
+    padding: 10px;
+    box-sizing: border-box;
+    color: #F5F5DC; /* Define el color general del texto */
 }
 
-/* Ajuste para el título en móviles */
-/* Ajuste general para el título */
+/* Estilización del título principal */
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 8vw; /* Reducido un poco */
+    font-size: 7vw; /* Tamaño dinámico */
     color: #F5F5DC;
     text-align: center;
-        width: 100%; /* Define el ancho */
-    padding: 5px; /* Espacio interno */
-    margin: 0px auto; /* Centra horizontalmente */
-    border: 0px solid #6a6a75; /* Borde visible */
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    border-bottom: 2px solid #6a6a75; /* Borde sutil */
     box-sizing: border-box;
 }
 
-/* 🔹 Ajuste para pantallas pequeñas */
+/* Ajuste para pantallas pequeñas */
 @media (max-width: 550px) {
     h1 {
-        font-size: 8vw; /* Sigue siendo grande pero no tan exagerado */
+        font-size: 8vw; /* Ajusta tamaño en móviles */
     }
 }
 
-
-
-/* Optimización del tamaño del logo */
+/* Optimización del logo */
 #logo {
     display: block;
     margin: 0 auto;
-    max-width: 80%; /* Reduce el ancho dinámicamente */
-    height: auto; /* Mantiene proporción sin distorsión */
-    padding: 5px; /* Espacio interno */
+    max-width: 70%; /* Ajusta proporcionalmente */
+    height: auto;
+    padding: 5px;
 }
 
-
-/* Ajuste de navegación */
+/* Estilización del menú de navegación */
 ul {
-    color: #F5F5DC;
     list-style: none;
     padding: 0;
-    margin: 0;
-    font-size: 4vw; /* Ajuste dinámico */
+    margin: 10px 0;
+    font-size: 4vw;
     text-align: center;
 }
 ul a {
-color: #F5F5DC;
+    color: #F5F5DC;
+    text-decoration: none; /* Quita el subrayado */
 }
 
-/* Para mejorar visibilidad del footer */
+/* Mejor visibilidad del pie de página */
 footer {
     color: #F5F5DC;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+}
+
+/* Ajustes para subtítulos */
+h2, h3, p, span {
+    color: #F5F5DC;
+    text-align: center;
+}
+
+/* Aplicación de color especial a etiquetas NEW dentro de h2 */
+h2 span {
+    color: #FA9F42; /* Naranja cálido */
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+/* Estilización del texto de copyright */
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em;
+    text-align: center; /* Asegura que quede alineado */
 }
 
