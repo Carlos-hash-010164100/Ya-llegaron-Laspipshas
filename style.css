@@ -24,8 +24,9 @@ h1 {
     width: 100%;
     padding: 5px;
     margin: 0 auto;
-    border-bottom: 2px solid #6a6a75; /* Borde sutil */
-    box-sizing: border-box;
+    border-bottom: 7px solid rgb(0,0,0); /* Borde blanco */
+    box-sizing: border-box; /* Asegura que padding y border no aumenten el tamaño total */
+
 }
 
 /* Ajuste para pantallas pequeñas */
