@@ -1,98 +1,67 @@
 body {
-    background-image: url('fondopizza.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Asegura altura mínima completa */
-    padding: 10px;
-    box-sizing: border-box;
-    color: #F5F5DC; /* Define el color general del texto */
+  background-image: url('fondopizza.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #F5F5DC;
 }
 
-/* Estilización del título principal */
 h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 7vw; /* Tamaño dinámico */
-    color: #F5F5DC;
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    margin: 0 auto;
-    border-bottom: 7px solid rgb(0,0,0); /* Borde blanco */
-    box-sizing: border-box; /* Asegura que padding y border no aumenten el tamaño total */
-
+  font-family: 'Lobster', cursive;
+  font-size: clamp(24px, 6vw, 60px);
+  color: #F5F5DC;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  border-bottom: 7px solid #000;
+  box-sizing: border-box;
 }
 
-/* Ajuste para pantallas pequeñas */
 @media (max-width: 550px) {
-    h1 {
-        font-size: 8vw; /* Ajusta tamaño en móviles */
-    }
+  h1 {
+    font-size: 8vw;
+  }
 }
 
-/* Optimización del logo */
 #logo {
-    display: block;
-    margin: 0 auto;
-    max-width: 70%; /* Ajusta proporcionalmente */
-    height: auto;
-    padding: 5px;
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  height: auto;
+  padding: 5px;
 }
 
-/* Estilización del menú de navegación */
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    font-size: 4vw;
-    
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  font-size: 4vw;
 }
+
 ul a {
-    color: #F5F5DC;
-    text-decoration: none; /* Quita el subrayado */
+  color: #F5F5DC;
+  text-decoration: none;
 }
 
-/* Mejor visibilidad del pie de página */
 footer {
-    color: #F5F5DC;
-    text-align: center;
-    padding: 15px;
+  color: #F5F5DC;
+  text-align: center;
+  padding: 15px;
 }
 
-/* Ajustes para subtítulos */
-h2, h3, p, span {
-    color: black;
-    text-align: center;
-}
-
-/* Aplicación de color especial a etiquetas NEW dentro de h2 */
-h2 span {
-    color: #FA9F42; /* Naranja cálido */
-    font-size: 0.75em;
-    font-weight: bold;
-}
-
-/* Estilización del texto de copyright */
-#copyright {
-    padding-top: 12px;
-    font-size: 0.75em;
-    text-align: center; /* Asegura que quede alineado */
-}
-nav {
-    margin-left: 0; /* Fija el margen izquierdo a 0 */
-    text-align: left; /* Asegura que el contenido dentro de nav también quede alineado */
-    display: block; /* Garantiza que se comporte como un bloque */
-    width: 100%; /* Se expande horizontalmente */
+h2, h3, span {
+  color: black;
+  text-align: center;
 }
 
 p {
-    color: #F5F5DC;
-}
-
-
+  color: #F5F5DC
